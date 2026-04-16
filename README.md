@@ -1,69 +1,141 @@
-**📊 Lifestyle & Health Risk Dashboard**
+# 📊 Lifestyle & Health Risk Dashboard
 
-This project is an interactive data-visualization dashboard built in Power BI to analyze the relationship between lifestyle habits (especially smoking) and health risks.
+An interactive data visualization project built using Power BI to analyze the relationship between lifestyle habits, particularly smoking, and health risk outcomes.
 
-**🎯 Objective**
+---
 
-To explore how smoking behavior, age, and gender influence:
+## 🎯 Project Objective
 
-**Health conditions:**_
+This dashboard aims to explore how key factors such as smoking behavior, age, and gender influence:
 
-Risk levels
+- Health conditions  
+- Risk classification (Healthy vs Damaged)  
+- Chronic disease indicators (cholesterol, hypertension)  
 
-Chronic disease indicators
+The goal is to provide insights that support early risk detection and data-driven health analysis.
 
-**📁 Dataset Description**
+---
 
-The dataset includes:
+## 📁 Dataset Overview
 
-Demographics (Age, Gender)
+The dataset contains structured information on individuals, including:
 
-Smoking behavior (Status, Duration, CPD)
+### 👤 Demographics
+- Age (grouped into ranges)
+- Gender  
 
-Health metrics (BMI, Cholesterol, Hypertension)
+### 🚬 Lifestyle Factors
+- Smoking Status (Never, Current, Former)  
+- Years of Smoking (YOS)  
+- Cigarettes Per Day (CPD)  
 
-Risk classification (Healthy vs Damaged)
+### 🧪 Health Indicators
+- Body Mass Index (BMI)  
+- Cholesterol Levels  
+- Hypertension Risk  
 
-**📸 Dashboard Preview**
+### ⚠️ Risk Classification
+- Healthy  
+- Damaged  
 
-⚙️ Features
+---
 
-Dynamic KPI cards (Total Patients, Avg Age, Avg BMI)
+## 📸 Dashboard Preview
 
-Smoking behavior analysis
+![Dashboard Overview](dashboarddetails.png)
 
-Gender-based comparisons
+---
 
-Health risk segmentation
+## ⚙️ Key Features
 
-Interactive slicers and filters
+- **Dynamic KPI Cards**
+  - Total Patients  
+  - Average Age  
+  - Average BMI  
 
-**🎮 Interactivity**
+- **Smoking Behavior Analysis**
+  - Distribution of smoking status  
+  - Smoking duration vs daily intake  
 
-Filters update all visuals in real time
+- **Demographic Insights**
+  - Smoking patterns by gender  
+  - Risk distribution across age groups  
 
-Health status toggle (Healthy vs Damaged)
+- **Health Risk Analysis**
+  - Cholesterol and hypertension levels  
+  - Segmented by age and risk category  
 
-Cross-filtering between charts
+- **Interactive Navigation**
+  - Slicers for filtering data  
+  - Health status toggle (Healthy vs Damaged)  
 
-**🛠 Tools Used**
+---
 
-Power BI
+## 🎮 Interactivity
 
-DAX (Data Analysis Expressions)
+- Cross-filtering between visuals  
+- Dynamic updates based on user selections  
+- Interactive slicers for demographic and health filters  
 
-**📂 Files in this Repository**
+---
 
-health-risk-dashboard.pbix → Power BI file
+## 🛠 Tools & Technologies
 
-dataset.csv → Dataset
+- **Power BI**  
+- **DAX (Data Analysis Expressions)**  
+- Data Modeling & Visualization  
 
-dashboard-overview.png → Dashboard preview
+---
 
-**🚀 How to Use**
+## 📂 Repository Contents
 
-Download the .pbix file
+| File | Description |
+|------|------------|
+| `health-risk-dashboard.pbix` | Power BI project file |
+| `dataset.csv` | Dataset used for analysis |
+| `dashboard-overview.png` | Dashboard preview image |
+| `README.md` | Project documentation |
 
-Open in Power BI Desktop
+---
 
-Interact with filters and visuals
+## 🚀 Getting Started
+
+To explore this project locally:
+
+1. Download the `.pbix` file  
+2. Open it using Power BI Desktop  
+3. Interact with the dashboard using slicers and filters  
+
+---
+
+## 💡 Insights Delivered
+
+This dashboard enables users to:
+
+- Identify high-risk population segments  
+- Analyze the impact of smoking intensity and duration  
+- Compare health outcomes across demographic groups  
+- Detect patterns linking lifestyle to chronic conditions  
+
+---
+
+## 📌 Future Improvements
+
+- Integration of additional health metrics  
+- Enhanced interactivity (drill-through and tooltips)  
+- Deployment to Power BI Service for live access  
+
+---
+
+## 👤 Author
+
+**Oso Moyinoluwa**  
+Data Analyst | Power BI Developer  
+
+---
+
+## 📬 Contact
+
+For questions, feedback, or collaboration opportunities, feel free to reach out.
+
+---
