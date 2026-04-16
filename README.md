@@ -42,7 +42,7 @@ The dataset contains structured information on individuals, including:
 
 ## 📸 Dashboard Preview
 
-![Dashboard Overview](dashboarddetails.png)
+![Dashboard Overview](dashboard-details.png)
 
 ---
 
@@ -92,8 +92,11 @@ The dataset contains structured information on individuals, including:
 | File | Description |
 |------|------------|
 | `health-risk-dashboard.pbix` | Power BI project file |
-| `dataset.csv` | Dataset used for analysis |
-| `dashboard-overview.png` | Dashboard preview image |
+| `condition.csv` | Dataset used for analysis |
+| `organs.csv` | Dataset used for analysis |
+| `image dataset.csv` | Dataset used for analysis |
+| `health_dataset.csv` | Dataset used for analysis |
+| `dashboard-details.png` | Dashboard preview image |
 | `README.md` | Project documentation |
 
 ---
